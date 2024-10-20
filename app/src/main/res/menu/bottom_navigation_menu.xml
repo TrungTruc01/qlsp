@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_product"
+        android:title="Quản lý sản phẩm" />
+    <item
+        android:id="@+id/nav_category"
+        android:title="Loại sản phẩm" />
+</menu>

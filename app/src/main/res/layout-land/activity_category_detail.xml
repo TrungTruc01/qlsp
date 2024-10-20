@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="MissingDefaultResource">
+
+    <TextView
+        android:id="@+id/textViewCategoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên loại sản phẩm"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/textViewCategoryId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã loại sản phẩm"/>
+
+    <!-- Thay đổi bố cục cho hai nút -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:gravity="center"> <!-- Thêm gravity để căn giữa các nút -->
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/purple_500"
+            android:padding="4dp"
+            android:text="Sửa"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:padding="4dp"
+            android:text="Xóa"
+            android:textColor="@android:color/white"
+            tools:ignore="TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/buttonExit"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:backgroundTint="@color/purple_500"
+            android:padding="4dp"
+            android:text="Thoát"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+
+</LinearLayout>

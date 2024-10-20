@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#2196F3</color>
+    <color name="edittext_background">#EDE7F6</color> <!-- Light purple for EditText background -->
+    <color name="colorPrimary">#6200EE</color> <!-- Primary color for your app -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Darker variant of primary color -->
+    <color name="colorAccent">#01B7DB</color> <!-- Accent color -->
+    <color name="red">#DBCE0A17</color>
+    <color name="light">#009688</color>
+    <color name="light_secondary">#4CAF50</color>
+    <color name="dark">#F44336</color>
+    <color name="dark_secondary">#3F51B5</color>
+</resources>
